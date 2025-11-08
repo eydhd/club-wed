@@ -1,0 +1,170 @@
+.comment-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 150px;
+}
+
+.comment-input-section {
+  margin-bottom: 30px;
+}
+
+.comment-input,
+.reply-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 80px;
+  margin-bottom: 10px;
+}
+
+.submit-btn,
+.submit-reply-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled,
+.submit-reply-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.comments-list {
+  gap: 20px;
+}
+
+.comment-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar,
+.reply-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.reply-avatar {
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+}
+
+.author-info {
+  flex: 1;
+}
+
+.author-name {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.comment-time,
+.reply-time {
+  font-size: 12px;
+  color: #666;
+}
+
+.comment-content,
+.reply-content {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.action-btn:hover {
+  color: #4285f4;
+}
+
+.like-btn.liked .like-icon {
+  color: #ea4335;
+}
+
+.reply-input-section {
+  margin-top: 10px;
+  padding-left: 46px;
+}
+
+.reply-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.cancel-btn {
+  background-color: #eee;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.replies-list {
+  margin-top: 15px;
+  padding-left: 46px;
+  border-left: 2px solid #eee;
+}
+
+.reply-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.reply-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.reply-author {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.loading,
+.no-comments {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  padding: 20px;
+  color: #ea4335;
+}
